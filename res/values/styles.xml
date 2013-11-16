@@ -15,7 +15,11 @@
     <!-- Application theme. -->
     <style name="AppTheme" parent="AppBaseTheme">
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        
     </style>
+    <style name="MainAppTheme" parent="android:Theme.Light.NoTitleBar">
+        
+    </style> 
     <color name="TheFoodChainGreen">#4aad3a</color>
 
 </resources>
