@@ -22,28 +22,29 @@
         android:layout_marginTop="20dp" >
 
         <TextView
-            android:id="@+id/textView1"
+            android:id="@+id/textView_orderid"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="TextView"
+            android:text="@string/order_id"
             android:textColor="@color/white"
             android:textSize="@dimen/list_view_text_views" />
 
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/textView_postcode"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:paddingLeft="20dp"
-            android:paddingRight="20dp"
-            android:text="TextView"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="30dp"
+            android:text="@string/post_code"
             android:textColor="@color/white"
             android:textSize="@dimen/list_view_text_views" />
 
         <TextView
-            android:id="@+id/textView3"
+            android:id="@+id/textView_delivered"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="TextView"
+            android:layout_marginLeft="20dp"
+            android:text="@string/delivered"
             android:textColor="@color/white"
             android:textSize="@dimen/list_view_text_views" />
     </LinearLayout>
@@ -51,11 +52,13 @@
     <ListView
         android:id="@+id/listView1"
         android:layout_width="match_parent"
-        android:layout_height="294dp"
+        android:layout_height="347dp"
         android:layout_marginBottom="5dp"
         android:layout_weight="0.00"
         android:animateLayoutChanges="true" 
-        android:entries="@array/text">
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        >
     </ListView>
 
     <ImageView
@@ -63,6 +66,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:src="@drawable/elipse" />
+        android:layout_marginTop="15dp"
+        android:src="@drawable/elipse" 
+        />
 
 </LinearLayout>

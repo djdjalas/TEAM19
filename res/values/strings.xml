@@ -18,5 +18,8 @@
         <item name="hello"> hello</item>
         <item name="hello"> hello</item>
     </string-array>
+    <string name="order_id">ORDER ID.</string>
+    <string name="post_code">POST CODE</string>
+    <string name="delivered">DELIVERED</string>
 
 </resources>
