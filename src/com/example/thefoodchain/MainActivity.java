@@ -14,11 +14,10 @@ public class MainActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 		
-		//Typeface typefaceFont = Typeface.createFromAsset(getAssets(),"fonts/Track.ttf");
+		Typeface typefaceFont = Typeface.createFromAsset(getAssets(),"fonts/Track.ttf");
 		
-		
-		TextView text = (TextView)findViewById(R.id.textView1);
-		//text.setTypeface(typefaceFont);
+		TextView text = (TextView)findViewById(R.id.textView1);		
+		text.setTypeface(typefaceFont);
 
 	}
 
