@@ -1,13 +1,17 @@
 package com.example.thefoodchain;
 
-import android.os.Bundle;
 import android.app.Activity;
+import android.content.DialogInterface;
+import android.content.DialogInterface.OnClickListener;
+import android.content.Intent;
 import android.graphics.Typeface;
+import android.os.Bundle;
 import android.view.Menu;
+import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-public class MainActivity extends Activity {
+public class MainActivity extends Activity{
 
 	
 	@Override
@@ -17,18 +21,31 @@ public class MainActivity extends Activity {
 		
 		Typeface typefaceFont = Typeface.createFromAsset(getAssets(),"fonts/Track.ttf");
 		
-		Button enterIdLabel = (Button)findViewById(R.id.button1);		
-		enterIdLabel.setTypeface(typefaceFont);
+		Button requestButton = (Button)findViewById(R.id.button1);
+		requestButton.setOnClickListener(new ButtonListener());
 		
-		TextView requestButton =(TextView)findViewById(R.id.textView1);
 		requestButton.setTypeface(typefaceFont);
+		
+		TextView enterIdTextView =(TextView)findViewById(R.id.textView1);
+		enterIdTextView.setTypeface(typefaceFont);
 	}
+	
 
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.
 		getMenuInflater().inflate(R.menu.main, menu);
 		return true;
+	}
+	
+	private class ButtonListener implements View.OnClickListener {
+
+		@Override
+		public void onClick(View v) {
+			startActivity(new Intent(MainActivity.this, ListTargets.class));
+			
+		}
+		
 	}
 
 }
