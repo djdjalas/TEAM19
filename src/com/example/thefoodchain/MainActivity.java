@@ -7,7 +7,7 @@ import android.view.Menu;
 
 public class MainActivity extends Activity {
 
-	public Typeface typefaceFont = Typeface.createFromAsset(getAssets(),"fonts/Track.ttf");
+	//public Typeface typefaceFont = Typeface.createFromAsset(getAssets(),"fonts/Track.ttf");
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
