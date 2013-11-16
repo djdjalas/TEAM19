@@ -1,4 +1,4 @@
-package com.example.thefoofchain;
+package com.example.thefoodchain;
 
 import android.os.Bundle;
 import android.app.Activity;
