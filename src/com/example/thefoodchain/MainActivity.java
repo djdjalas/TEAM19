@@ -4,16 +4,21 @@ import android.os.Bundle;
 import android.app.Activity;
 import android.graphics.Typeface;
 import android.view.Menu;
+import android.widget.TextView;
 
 public class MainActivity extends Activity {
 
-	//public Typeface typefaceFont = Typeface.createFromAsset(getAssets(),"fonts/Track.ttf");
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 		
+		//Typeface typefaceFont = Typeface.createFromAsset(getAssets(),"fonts/Track.ttf");
+		
+		
+		TextView text = (TextView)findViewById(R.id.textView1);
+		//text.setTypeface(typefaceFont);
 
 	}
 
