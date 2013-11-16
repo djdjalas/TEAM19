@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.app.Activity;
 import android.graphics.Typeface;
 import android.view.Menu;
+import android.widget.Button;
 import android.widget.TextView;
 
 public class MainActivity extends Activity {
@@ -16,9 +17,11 @@ public class MainActivity extends Activity {
 		
 		Typeface typefaceFont = Typeface.createFromAsset(getAssets(),"fonts/Track.ttf");
 		
-		TextView text = (TextView)findViewById(R.id.textView1);		
-		text.setTypeface(typefaceFont);
-
+		Button enterIdLabel = (Button)findViewById(R.id.button1);		
+		enterIdLabel.setTypeface(typefaceFont);
+		
+		TextView requestButton =(TextView)findViewById(R.id.textView1);
+		requestButton.setTypeface(typefaceFont);
 	}
 
 	@Override
