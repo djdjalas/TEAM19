@@ -2,16 +2,19 @@ package com.example.thefoodchain;
 
 import android.os.Bundle;
 import android.app.Activity;
+import android.graphics.Typeface;
 import android.view.Menu;
 
 public class MainActivity extends Activity {
 
+	public Typeface typefaceFont = Typeface.createFromAsset(getAssets(),"fonts/Track.ttf");
+	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 		
-		//hello
+
 	}
 
 	@Override
