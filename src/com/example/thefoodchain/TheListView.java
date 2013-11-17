@@ -22,7 +22,7 @@ public class TheListView extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_list_targets);
-
+		
 		final ListView lv = (ListView) findViewById(R.id.listView1);
 
 		final ArrayList<ListViewItem> list = new ArrayList<ListViewItem>();
@@ -53,11 +53,12 @@ public class TheListView extends Activity {
 			@Override
 			public void onItemClick(AdapterView<?> arg0, View arg1, int arg2,
 					long arg3) {
-
+				
 				Toast t = Toast.makeText(TheListView.this, "Hello",
 						Toast.LENGTH_LONG);
 				t.show();
-
+				
+				startActivity(new Intent(TheListView.this,SingleTarget.class));
 			}
 		});
 

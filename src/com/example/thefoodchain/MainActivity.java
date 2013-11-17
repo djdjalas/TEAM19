@@ -67,7 +67,7 @@ public class MainActivity extends Activity{
 			// TODO Auto-generated method stub
 			super.onPostExecute(result);
 			
-			startActivity(new Intent(MainActivity.this, TheListView.class));
+			startActivity(new Intent(MainActivity.this, ListTargets.class));
 
 		}
 		

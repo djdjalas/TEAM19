@@ -15,6 +15,7 @@ public class SingleTarget extends Activity {
 		
 		WebView map = (WebView) findViewById(R.id.map);
 		map.loadUrl("https://maps.google.co.uk/maps?q=map+route&client=safari&hq=route&hnear=London,+United+Kingdom&t=m&z=11");
+		
 	}
 	
 

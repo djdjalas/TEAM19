@@ -38,7 +38,7 @@ public final class R {
     }
     public static final class id {
         public static final int LinearLayout1=0x7f0a0000;
-        public static final int action_settings=0x7f0a000e;
+        public static final int action_settings=0x7f0a0013;
         public static final int button1=0x7f0a000c;
         public static final int checkBox1=0x7f0a0009;
         public static final int customerPostCode=0x7f0a0008;
@@ -49,6 +49,11 @@ public final class R {
         public static final int map=0x7f0a000d;
         public static final int orderID=0x7f0a0007;
         public static final int textView1=0x7f0a000b;
+        public static final int textView2=0x7f0a000e;
+        public static final int textView3=0x7f0a0010;
+        public static final int textView4=0x7f0a000f;
+        public static final int textView5=0x7f0a0011;
+        public static final int textView6=0x7f0a0012;
         public static final int textView_delivered=0x7f0a0004;
         public static final int textView_orderid=0x7f0a0002;
         public static final int textView_postcode=0x7f0a0003;
@@ -71,6 +76,9 @@ public final class R {
         public static final int hello_world=0x7f060002;
         public static final int order_id=0x7f060005;
         public static final int post_code=0x7f060006;
+        public static final int single_address=0x7f060009;
+        public static final int single_contact=0x7f06000a;
+        public static final int single_name=0x7f060008;
     }
     public static final class style {
         /** 

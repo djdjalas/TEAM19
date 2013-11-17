@@ -21,5 +21,8 @@
     <string name="order_id">ORDER ID.</string>
     <string name="post_code">POST CODE</string>
     <string name="delivered">DELIVERED</string>
+    <string name="single_name">NAME:</string>
+    <string name="single_address">ADDRESS:</string>
+    <string name="single_contact">CONTACT:</string>
 
 </resources>
