@@ -26,7 +26,7 @@ public class MainActivity extends Activity{
 		setContentView(R.layout.activity_main);
 		
 		Typeface typefaceFont = Typeface.createFromAsset(getAssets(),"fonts/Track.ttf");
-
+		
 		
 		Button requestButton = (Button)findViewById(R.id.button1);
 		requestButton.setOnClickListener(new ButtonListener());
